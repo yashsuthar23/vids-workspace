@@ -1,26 +1,73 @@
+# Node.js dependencies
+
 node_modules/
+jspm_packages/
+bower_components/
+web_modules/
+
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# CRM local data
+
 crm-data.json
 crm-data.json.*
-.env
-*.log
-uploads/
-backups/
-outbox/
-
-# SQLite database files
 *.db
 *.sqlite
 *.sqlite3
 *.sqlite-shm
 *.sqlite-wal
 
-# Environment and secrets
-.env.*
-!.env.example
+# User uploads, backups and generated output
 
-# Local data and generated files
-node_modules/
 uploads/
 backups/
 outbox/
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime and process files
+
+pids/
+*.pid
+*.pid.lock
+
+# Test coverage
+
+coverage/
+.nyc_output/
+*.lcov
+
+# Build and cache
+
+build/Release/
+.cache/
+.parcel-cache/
+dist/
+.next/
+.nuxt/
+.output/
+.astro/
+.turbo/
+.vite/
+*.tsbuildinfo
+
+# Editor and tooling
+
+.vscode-test/
+.eslintcache
+.stylelintcache
+.npm/
+.pnpm-store/
+.yarn-integrity
+.nyc_output/
+
+# Package archives
+
+*.tgz
