@@ -1,0 +1,5 @@
+node_modules/
+crm-data.json
+crm-data.json.*
+.env
+*.log

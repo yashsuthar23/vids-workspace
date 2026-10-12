@@ -1,0 +1,26 @@
+node_modules/
+crm-data.json
+crm-data.json.*
+.env
+*.log
+uploads/
+backups/
+outbox/
+
+# SQLite database files
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-shm
+*.sqlite-wal
+
+# Environment and secrets
+.env.*
+!.env.example
+
+# Local data and generated files
+node_modules/
+uploads/
+backups/
+outbox/
+*.log
